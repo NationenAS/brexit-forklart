@@ -1,0 +1,448 @@
+h2 {
+    margin: auto 25px;
+}
+
+.phone {
+    display: block;
+}
+
+.pcscreen {
+    display: none;
+}
+
+.section {
+    max-height: 14000px;
+    height: auto;  
+    margin: 30px auto;  
+    background-color: white; 
+}
+
+.polaroid {
+    margin-bottom: 50px;
+}
+
+.innledning {
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.mellomtittel hr {
+    width: 100%;
+    border-top-color: black;
+}
+
+.mellomtittel h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.imgtext {
+    background-color: #00000083;
+    left: 5%;
+    position: absolute;
+    bottom: 10px;
+    max-width: 90%;
+    width: fit-content;
+}
+
+.imgtext p {
+    color: white;
+    line-height: 12px;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.minh800 {
+    min-height: 800px;
+}
+
+.minh700 {
+    min-height: 700px;
+}
+.minh600 {
+    min-height: 600px;
+}
+
+
+.polaroid {
+    padding:0;
+}
+.polaroid img{
+    /* max-width: 900px; */
+    width: 100%;
+    padding-top: 25px;
+    
+}
+
+.insta-text {
+    margin: auto;
+    
+}
+
+.ingress {
+    
+    margin: auto;
+    margin-top: 50px;    
+    
+}
+
+.innledning p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.insta-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.insta-text .question {
+    color: black;
+    
+}
+
+p {
+    font-family: adelle_sansregular;
+}
+
+
+
+h3 {
+    font-family: adelle_sansthin;
+}
+
+.byline i {
+    letter-spacing: 1px;
+}
+
+.bylineimg img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.byline-wrapper hr {
+    width: 330px;
+}
+
+.section:nth-child(odd)  .row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ingress h1 {
+    font-size: 50px;
+
+}
+.ingress h3 {
+    line-height: 35px;
+}
+
+
+
+#tittelimgl {
+    width: 85%;
+}
+
+@media only screen and (min-width:400px){
+    .mellomtittel h1 {
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+}
+
+ /******** SMALL SCREEN *******/
+ @media screen and (min-width: 576px) and (max-width:767px){
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+
+    .ingress h1 {
+        font-size: 70px;
+    }
+    .ingress h3 {
+        line-height: 35px;
+    }
+
+    .mellomtittel h1 {
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+
+    .phone {
+        display: block;
+    }
+    
+    .pcscreen {
+        display: none;
+    }
+
+    .imgtext {
+        background-color: #00000083;
+        left: 5%;
+        position: absolute;
+        bottom: 10px;
+        max-width: 70%;
+        width: fit-content;
+    }
+    
+    .imgtext p {
+        color: white;
+        line-height: 15px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    
+
+ }
+
+ /******** Medium SCREEN *******/
+@media screen and (min-width: 768px) and (max-width:991px){
+
+    .section{   
+        
+        height: auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .ingress h1 {
+        font-size:85px;
+    }
+
+    .mellomtittel h1 {
+        font-size: 50px;
+        padding-bottom: 0;
+    }
+
+    .polaroid img {
+        position: relative;        
+        
+    }
+
+    .stickdiv {
+        position: -webkit-sticky;
+        position: sticky;
+        height: fit-content;
+        top: 0;
+        left: 0;
+    }
+    body {
+        overflow: visible;
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+    
+    .innledning p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #tittelimg {
+        width: 75%;
+    }
+
+    .ingress h3 {
+        line-height: 35px;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+    .imgtext {
+        background-color: #00000083;
+        left: 5%;
+        position: absolute;
+        bottom: 10px;
+        max-width: 70%;
+        width: fit-content;
+    }
+    
+    .imgtext p {
+        color: white;
+        line-height: 15px;
+        font-size: 14px;
+        margin: 7px;
+    }
+
+
+}
+
+ 
+ /******** Large SCREEN *******/
+
+@media screen and (min-width: 992px){
+
+    .section{   
+        
+        height: auto;
+        max-height: 3000px;
+        margin-bottom: 100px;
+        
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tittelimg {
+        width: 60%;
+    }
+
+    .ingress h1 {
+        font-size: 100px;
+    
+    }
+
+    .ingress h3 {
+        width: 60%;
+        margin: auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .mellomtittel h1 {
+        font-size: 50px;
+        padding-bottom: 0;
+    }
+    
+    .byline-wrapper {
+        margin: 75px auto;
+        
+    }   
+
+    .polaroid img {
+        position: relative;
+        
+        
+    }
+
+    .stickdiv {
+        position: -webkit-sticky;
+        position: sticky;
+        height: fit-content;
+        top: 0;
+        left: 0;
+    }
+    body {
+        overflow: visible;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+    .imgtext {
+        background-color: #00000083;
+        left: 5%;
+        position: absolute;
+        bottom: 10px;
+        max-width: 70%;
+        width: fit-content;
+    }
+    
+    .imgtext p {
+        color: white;
+        line-height: 15px;
+        font-size: 14px;
+        margin: 7px;   
+}
+
+@media screen and (min-width: 1200px) {
+
+    .byline-wrapper {
+        margin-bottom: 100px;
+        margin-top: 75px;
+    }
+
+    .ingress h3 {
+        width: 60%;
+        margin: auto;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .polaroid img {
+        position: relative;
+        
+        
+    }
+
+    .stickdiv {
+        position: -webkit-sticky;
+        position: sticky;
+        height: fit-content;
+        top: 0;
+        left: 0;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+    .imgtext {
+        background-color: #00000083;
+        left: 5%;
+        position: absolute;
+        bottom: 10px;
+        max-width: 70%;
+        width: fit-content;
+    }
+    
+    .imgtext p {
+        color: white;
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+
+}
+
+#back1 {
+    height: 100vh;
+    min-height: 600px;
+}
+
+
